@@ -8,15 +8,15 @@ https://www.youtube.com/watch?v=y4Ouwu4PC94
 
 ## Members
 
-Mert Daloğlu 20160808046
-Ahmetcan Gürbüz 20160807014
+Mert Daloğlu 20160808046  
+Ahmetcan Gürbüz 20160807014  
 
 ## Requirements
 
-pip install flask
-pip install flask-mysqldb
-pip install passlib
-pip install wtform
+pip install flask  
+pip install flask-mysqldb  
+pip install passlib  
+pip install wtform  
 
 
 ## Run
@@ -26,10 +26,10 @@ python app.py
 
 ## Methodology
 
-In summary, this project is actually a cryptocurrency. We took on a cryptocurrency project as the main concept and made changes on it. When someone registers, the system(TBMM in this project) will give you 1 coin. 
-There is no way to add coins to yourself.
-When you vote for someone, you will send your 1 coin to people you select. This transaction will add to the blockchain. 
-To count votes, the system counts every transaction in the blockchain. Richest person in the candidate will win the vote.
+In summary, this project is actually a cryptocurrency. We took on a cryptocurrency project as the main concept and made changes on it. When someone registers, the system(TBMM in this project) will give you 1 vote. 
+There is no way to add suffrage to yourself.
+When you vote for someone, you will send your 1 vote to people you select. This transaction will add to the blockchain with mine a block. 
+To count votes, the system counts every transaction in the blockchain. Most voted person in the candidate will win the vote.
 
 ## Findings
 
